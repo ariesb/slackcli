@@ -1,19 +1,19 @@
-# SlackCLI (slackcli)
+# Slack CLI (slackctl)
 Basic command line helper for sending Slack Messages that utilized @slack/web-api
 
 ## Install
 ```bash
-npm install slackcli -g
+npm install slackctl -g
 ```
 ## Usage
 ```bash
-    slackcli --help
+    slackctl --help
 ```
 ```bash 
-    slackcli <command>
+    slackctl <command>
 
     Commands:
-    slackcli message [auth] [channel] [text]  Send or post message to Slack
+    slackctl message [auth] [channel] [text]  Send or post message to Slack
     [linknames]
 
     Options:
@@ -23,11 +23,11 @@ npm install slackcli -g
 
 Or display specific command help
 ```bash
-    slackcli message --help
+    slackctl message --help
 ```
 
 ```bash
-slackcli message [auth] [channel] [text] [linknames]
+slackctl message [auth] [channel] [text] [linknames]
 
 Send or post message to Slack
 
@@ -42,10 +42,10 @@ Options:
 
 ## Example
 ```bash
-slackcli --auth xoxb-00000000000-000000000000-00000 --channel general --text "Hello Slack"
+slackctl --auth xoxb-00000000000-000000000000-00000 --channel general --text "Hello Slack"
 ```
 
 Sending multiple line of text message
 ```bash
-slackcli --auth xoxb-00000000000-000000000000-00000 --channel general --text $'Hello\nSlack'
+slackctl --auth xoxb-00000000000-000000000000-00000 --channel general --text $'Hello\nSlack'
 ```

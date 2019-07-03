@@ -1,8 +1,8 @@
 {
-  "name": "slackcli",
+  "name": "slackctl",
   "version": "0.1.0",
-  "description": "Basic Slack CLI",
-  "main": "bin/slackcli",
+  "description": "Basic Slack CLI - Command Line Interface",
+  "main": "bin/slackctl",
   "keywords": [
     "Slack",
     "CLI",
