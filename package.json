@@ -9,10 +9,17 @@
     "Custom",
     "Message"
   ],
+  "bin": {
+    "slackctl": "bin/slackctl"
+  },
   "author": "Aries Beltran <ariesbe@icloud.com>",
   "license": "MIT",
   "dependencies": {
     "@slack/web-api": "^5.0.1",
     "yargs": "^13.2.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ariesb/slackctl.git"
+  },
 }
