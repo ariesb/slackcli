@@ -1,0 +1,18 @@
+{
+  "name": "slackcli",
+  "version": "0.1.0",
+  "description": "Basic Slack CLI",
+  "main": "bin/slackcli",
+  "keywords": [
+    "Slack",
+    "CLI",
+    "Custom",
+    "Message"
+  ],
+  "author": "Aries Beltran <ariesbe@icloud.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/web-api": "^5.0.1",
+    "yargs": "^13.2.4"
+  }
+}
